@@ -23,22 +23,6 @@ class HomePage extends StatelessWidget {
               text: "Launch Camera",
               route: const FaceDetectionPage(),
             )
-            // ElevatedButton.icon(
-            //   onPressed: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) => const FaceDetectionPage(),
-            //       ),
-            //     );
-            //   },
-            //   style: ElevatedButton.styleFrom(
-            //     padding:
-            //         const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
-            //   ),
-            //   icon: const Icon(Icons.camera_alt_outlined),
-            //   label: const Text('Open Camera'),
-            // )
           ],
         ),
       ),
